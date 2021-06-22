@@ -7,12 +7,25 @@
   <title>OriginSix</title>
   <!-- STYLES -->
   <link rel="stylesheet" href="/assets/styles/styles.css">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="/assets/fonts/style.css">
 </head>
 <body>
   <header id="header">
     <nav class="container">
       <a class="logo" href="#" >beauty<span>salon</span>.</a>
-      <div class="menu">...</div>
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>   
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Serviços</a></li>
+          <li><a class="title" href="#testimonials">Depoimentos</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
     </nav>
   </header>
 
@@ -23,7 +36,7 @@
           <img src="assets/img/banner-logo.jpg" alt="Mulher sorrindo">
         </div>
         <div class="text">
-        <h1>Saúde natural para os seus cabelos</h1>
+        <h2 class="title">Saúde natural para os seus cabelos</h2>
         <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
         <a class="button" href="#">Agendar um horário</a>
         </div>
@@ -32,10 +45,59 @@
 
     <div class="divider-1"></div>
 
-    <section class="section">
-      <div class="container">Outra section</div>
-    </section> 
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img src="assets/img/banner-2.jpg" alt="Degrader">
+        </div>
+        <div class="text"> 
+        <h2 class="title">Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo alias cumque aspernatur soluta! Tempora, reprehenderit! Iste recusandae impedit rerum, optio, nihil eveniet porro accusantium totam facere temporibus, modi corporis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam blanditiis doloremque nesciunt neque suscipit tempore vitae amet sit odio quisquam, excepturi iusto molestiae ipsa, magni voluptatibus explicabo asperiores libero recusandae.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo sunt distinctio totam corrupti sed perspiciatis aliquid odit delectus nulla temporibus id veritatis doloribus esse, ut veniam. Ducimus sit minima at.</p>
+      </div>
+    </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class="icon-woman-hair"></i>
+            <h3 class="title">Terapia capilar</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sed ipsum architecto inventore debitis. Delectus, dolores. Temporibus harum asperiores quisquam nostrum nam cupiditate non quae deserunt debitis tempora, expedita perferendis.
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-trim"></i>
+            <h3 class="title">Cortes</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque in perspiciatis voluptate sint molestiae iste, blanditiis, fugiat inventore voluptas rerum ad esse quia facilis unde deserunt maxime reprehenderit asperiores libero?
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-cosmetic"></i>
+            <h3 class="title">Tratamentos</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate rerum, iure inventore quaerat, sint explicabo ducimus id, alias eaque dolore pariatur illum culpa sit totam quidem autem. Commodi, minima?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+  <script src="assets/scripts/main.js"></script>
   <footer></footer>
 </body>
 </html>
