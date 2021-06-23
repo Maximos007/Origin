@@ -5,11 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OriginSix</title>
-  <!-- STYLES -->
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="/assets/fonts/style.css">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  
+  <!-- styles -->
   <link rel="stylesheet" href="/assets/styles/styles.css">
 
-  <!-- STYLES -->
-  <link rel="stylesheet" href="/assets/fonts/style.css">
 </head>
 <body>
   <header id="header">
@@ -100,12 +105,15 @@
     <div class="divider-1"></div>
 
     <section class="section" id="testimonials">
-      <div class="container grid">
+      <div class="container">
         <header>
           <h2 class="title">Depoimentos de quem já passou por aqui</h2>
         </header>
-        <div class="testimonials">
-          <div class="testimonial">
+
+        <div class="testimonials swiper-container">
+          
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
             <blockquote>
               <p>
                 <span>&ldquo;</span>
@@ -116,9 +124,9 @@
                 Wanessa Souza
               </cite>
             </blockquote>
-          </div>
+            </div>
 
-          <div class="testimonial">
+            <div class="testimonial swiper-slide">
             <blockquote>
               <p>
                 <span>&ldquo;</span>
@@ -129,9 +137,9 @@
                 Bruno Gontijo
               </cite>
             </blockquote>
-          </div>
+            </div>
 
-          <div class="testimonial">
+            <div class="testimonial swiper-slide">
             <blockquote>
               <p>
                 <span>&ldquo;</span>
@@ -142,13 +150,50 @@
                 Bianca sales
               </cite>
             </blockquote>
+            </div>
+
           </div>
 
+            <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Entre em contato com a gente!</h2>
+          <p>
+            Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
+          </p>
+          <a href="#" class="button" target="_blank">
+            <i class="icon-whatsapp">Entrar em contato</i>
+          </a>
+        </div>
+
+        <div class="links">
+          <ul class="grid">
+            <li><i class="icon-phone"></i>11 99845-6754</li>
+            <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+            <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
   </main>
+
+  <!-- swiper.js -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
   <script src="assets/scripts/main.js"></script>
-  <footer></footer>
+
 </body>
 </html>
